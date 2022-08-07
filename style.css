@@ -1,0 +1,121 @@
+
+*{
+	font-family: 'Playball', cursive;
+}
+h1{
+	background-color: hotpink;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hotpink;
+  font-family: 'Playball', cursive;
+}
+
+li {
+  float: right;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+:root{
+	--main-radius:  5px;
+	--main-padding:  5px;
+}
+.container{
+	display:  grid;
+	height:  100vh;
+	grid-gap: 0.2rem;
+	font-weight: 800;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Playball', cursive;
+}
+nav{
+	background-color: hotpink;
+	grid-area: nav;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	color: white;
+	font-family: 'Playball', cursive;
+}
+
+img{
+	height:  80vh;
+	width: 100vh;
+	object-fit: cover;
+}
+
+main{
+	background-color: powderblue;
+	grid-area: main;
+	border-radius: var(--main-radius);
+	padding:  100px;
+	text-align: center;
+}
+
+#new-arrivals{
+	background-color: hotpink;
+	grid-area: main;
+	border-radius: var(--main-radius);
+	padding:  100px;
+	text-align: center;
+}
+#content1{
+	background-color: powderblue;
+	grid-area: content1;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	font-family: 'Playball', cursive;
+	text-align: center;
+}
+
+#content2{
+background-color: hotpink;
+grid-area: content2;
+border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	font-family: 'Playball', cursive;
+	text-align: center;
+}
+#content3{
+	background-color: powderblue;
+	grid-area: content3;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	font-family: 'Playball', cursive;
+	text-align: center;
+}
+footer{
+	background-color: lawngreen;
+	grid-area: footer;
+	border-radius: var(--main-radius);
+	padding: 40px;
+}
+.image1,.image2, .image3{
+	height:  40vh;
+	width: 50vh;
+	object-fit: cover;
+}
+
+@media screen only and (min-width:  600px){
+	.container{
+	background-color: hotpink;
+}
